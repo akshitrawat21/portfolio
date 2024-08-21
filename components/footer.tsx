@@ -40,7 +40,7 @@ export default function Footer() {
           <FaGithub size={20} className="sm:size-24" />
         </a>
         <a
-          href="https://twitter.com/yourprofileakshitrawat21"
+          href="https://twitter.com/akshitrawat21"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-500 hover:text-blue-500 transition"
