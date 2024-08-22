@@ -71,7 +71,7 @@ export const projectsData = [
       "Developed and deployed a responsive table booking system using HTML, CSS, and JavaScript, optimizing user interaction and functionality",
     tags: ["HTML", "JavaScrip", "CSS"],
     imageUrl: projTwoImg,
-    link: "https://e-com-chi-six.vercel.app/",
+    link: "https://akshitrawat21.github.io/Restaurant-website/",
   },
   {
     title: "Snake Game",
