@@ -66,7 +66,7 @@ export const projectsData = [
     link: "https://e-com-chi-six.vercel.app/",
   },
   {
-    title: "Restaurent Website",
+    title: "Restaurant Website",
     description:
       "Developed and deployed a responsive table booking system using HTML, CSS, and JavaScript, optimizing user interaction and functionality",
     tags: ["HTML", "JavaScrip", "CSS"],
