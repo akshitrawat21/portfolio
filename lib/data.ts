@@ -7,6 +7,7 @@ import projOneImg from "@/public/projOne.png"
 import rmtdevImg from "@/public/rmtdev.png";
 import projTwoImg from "@/public/projTwo.png"
 import projThreeImg from "@/public/projThree.png"
+import projFourImg from "@/public/projFour.png"
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import { link } from "fs";
 
@@ -57,6 +58,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "TaskMe",
+    description:
+      "TaskMe is a sleek, responsive task management app featuring a customizable Kanban board. Effortlessly organize, prioritize, and track tasks with intuitive drag-and-drop functionality for individuals and teams.",
+    tags: ["React", "JavaScript", "Tailwind",],
+    imageUrl: projFourImg,
+    link: "https://taskmeapp.vercel.app/",
+  },
   {
     title: "E-COM",
     description:
