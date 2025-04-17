@@ -20,16 +20,15 @@ export default function Intro() {
       <section
         ref={ref}
         id="home"
-        className="w-full max-w-[50rem] mb-10 sm:mb-28 text-left"
+        className="w-full max-w-[80rem] mb-10 sm:mb-28 text-left"
       >
         <motion.h1
-          className="mb-10 mt-4 px-5 text-4xl font-medium !leading-[1.7] sm:text-4xl"
+          className="mb-10 mt-4 px-5 text-4xl font-medium !leading-[1.5] sm:text-6xl"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
           <span className="font-bold">Hello, I'm AKSHIT.<br></br></span> I'm a{" "}
-          <span className="font-bold">Full-Stack Developer</span> with{" "}
-          <span className="font-bold"> 0-1 years</span> of experience.{" "}<br></br>
+          <span className="font-bold">Full-Stack Developer</span><br></br>
           <span className="italic">I enjoy building sites & apps</span>. 
         </motion.h1>
 
@@ -90,10 +89,10 @@ export default function Intro() {
           className="ml-auto"
         >
           <Image
-            src="/Profile pic.png" // Path to your image
+            src="/Profilepic2.png" // Path to your image
             alt="Profile Image"
-            width={350} // Set the desired width
-            height={350} // Set the desired height
+            width={400} // Set the desired width
+            height={400} // Set the desired height
             className="rounded-lg object-cover"
           />
         </motion.div>
